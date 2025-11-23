@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import ArtStyles from "@/components/ArtStyles";
+import FormatSelector from "@/components/FormatSelector";
 import HowItWorks from "@/components/HowItWorks";
 import Testimonials from "@/components/Testimonials";
 import WhyChooseUs from "@/components/WhyChooseUs";
@@ -27,6 +28,7 @@ const Index = () => {
           >
             <Hero />
             <ArtStyles />
+            <FormatSelector />
             <HowItWorks />
             <Testimonials />
             <WhyChooseUs />
