@@ -54,21 +54,20 @@ const Testimonials = () => {
         </motion.div>
       </div>
 
-      <div className="relative">
+      <div className="relative overflow-hidden">
         <motion.div
-          className="flex gap-6"
+          className="flex gap-6 testimonials-marquee"
           animate={{
-            x: [0, -1920],
+            x: [0, -2000],
           }}
           transition={{
             x: {
               repeat: Infinity,
               repeatType: "loop",
-              duration: 30,
+              duration: 40,
               ease: "linear",
             },
           }}
-          whileHover={{ animationPlayState: "paused" }}
         >
           {[...testimonials, ...testimonials, ...testimonials].map((testimonial, index) => (
             <div

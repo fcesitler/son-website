@@ -158,3 +158,9 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .testimonials-marquee:hover {
+    animation-play-state: paused !important;
+  }
+}
