@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import styleRoyal from "@/assets/style-royal.jpg";
-import styleOil from "@/assets/style-oil.jpg";
+import styleOil from "@/assets/styles-oil.jpg";
 import styleChristmas from "@/assets/style-christmas.jpg";
 import styleWatercolor from "@/assets/style-watercolor.jpg";
 import stylePop from "@/assets/style-pop.jpg";
