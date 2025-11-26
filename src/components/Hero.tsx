@@ -2,9 +2,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Gift, Star, Users } from "lucide-react";
 import { useState, useEffect } from "react";
-import heroImage1 from "@/assets/hero-pet.jpg";
+import heroImage1 from "@/assets/hero-dog.jpg";
 import heroImage2 from "@/assets/style-royal.jpg";
-import heroImage3 from "@/assets/style-oil.jpg";
+import heroImage3 from "@/assets/styles-oil.jpg";
 
 const Hero = () => {
   const [currentImage, setCurrentImage] = useState(0);
